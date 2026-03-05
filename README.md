@@ -98,13 +98,13 @@ En conséquence :
 
 ### 7.1. Mise en place du projet
 
-- [] Cloner ce repository en local (`git clone <URL_DU_REPO>`).
-- [ ] Installer les dépendances du projet (`npm install`).
-- [ ] Ouvrir le projet dans Visual Studio Code.
+- [x] Cloner ce repository en local (`git clone <URL_DU_REPO>`).
+- [x] Installer les dépendances du projet (`npm install`).
+- [x] Ouvrir le projet dans Visual Studio Code.
 
 ### 7.2. Découverte de la codebase
 
-- [ ] Lister les fichiers et dossiers principaux du projet (pour usage personnel).
+- [x] Lister les fichiers et dossiers principaux du projet (pour usage personnel).
 - [ ] Comprendre le rôle de chaque dossier/fichier principal :
   - `src/`
   - `tests/`
