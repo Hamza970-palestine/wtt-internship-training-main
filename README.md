@@ -116,7 +116,7 @@ En conséquence :
 
 ### 7.3. Build et exécution
 
-- [ ] Lancer le build du projet (`npm run build`) et corriger les éventuelles erreurs.
+- [x] Lancer le build du projet (`npm run build`) et corriger les éventuelles erreurs.
 - [ ] Lancer le projet en mode exécution/développement (`npm run exe`, ou le script documenté dans `package.json`).
 - [ ] Vérifier que le programme se lance sans erreur dans le terminal.
 
