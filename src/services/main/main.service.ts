@@ -18,7 +18,14 @@ class MainService {
   async main() {
     const { limit } = this.parseArgument()
     const file = `./inputs/piege.jzon`
-    const data = (await shellService.readfile(file)) as MObject[]
+    /* j'apporte ici une modification, verifie que le fichier est bien lu */
+    const data = (await shellService.readfile(file)) as MObject[] | undefined
+    console.log('DEBUG: protection active')
+    if (!data) {
+      console.error(`Failed to read file ${file}`)
+      return
+    }
+
     console.log(`There is ${data.length} elements in the ${file}`)
   }
 
