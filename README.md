@@ -111,14 +111,14 @@ En conséquence :
   - `package.json`
   - `tsconfig.json`
   - `docs/`
-- [ ] Lire et comprendre le contenu du fichier `package.json`.
-- [ ] Lister l’ensemble des commandes disponibles dans `package.json` (section `scripts`).
+- [x] Lire et comprendre le contenu du fichier `package.json`.
+- [x] Lister l’ensemble des commandes disponibles dans `package.json` (section `scripts`).
 
 ### 7.3. Build et exécution
 
 - [x] Lancer le build du projet (`npm run build`) et corriger les éventuelles erreurs.
-- [ ] Lancer le projet en mode exécution/développement (`npm run exe`, ou le script documenté dans `package.json`).
-- [ ] Vérifier que le programme se lance sans erreur dans le terminal.
+- [x] Lancer le projet en mode exécution/développement (`npm run exe`, ou le script documenté dans `package.json`).
+- [x] Vérifier que le programme se lance sans erreur dans le terminal.
 
 ### 7.4. Première modification de code
 

@@ -17,7 +17,7 @@ class MainService {
   @timeDecorator()
   async main() {
     const { limit } = this.parseArgument()
-    const file = `./inputs/piege.jzon`
+    const file = `./inputs/sample.json` /* j'ai changé de fichier*/
     /* j'apporte ici une modification, verifie que le fichier est bien lu */
     const data = (await shellService.readfile(file)) as MObject[] | undefined
     console.log('DEBUG: protection active')
